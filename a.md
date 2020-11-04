@@ -5,6 +5,7 @@ Da PDF-Dokumente nur lokal bearbeitet werden können, müssen sie nach der Bearb
 - Downloadverzeichnis, Benutzername einstellbar
 - Datenaustausch HTTP-Stream
 - Datenbankverbindung
+- muss manuell gestartet werden
 
 # Analyse der PDF-Dokumentengruppe
 Die Analyse der PDF-Dokumente übernimmt das Java-Programm, welches bereits Thema der Projektarbeit "Wie auch immer die hieß" im Modul "Software Engineering" war. Zur Referenz befindet sich eine Kopie der Arbeit auf der beiliegenden CD. Das Programm überprüft mehrere gleichartige PDF-Dateien. Gleichartig heißt, dass die Inhalte der Dokumente immer gleich strukturiert sind und sich zusammengehörige Informationen immer an der gleichen Stelle im Dokument befinden. Solche Dateien werden normalerweise automatisch generiert. (Wollen wir Sporer hier auch unsere Beispiel-PDFs geben, falls die auf CD passen?) Das Java-Programm vergleicht alle Zeichenketten, die an ungefähr denselben Koordinaten im PDF-Dokument stehen und weist ihnen sogenannte Attribute zu. Der Nutzer kann diese Attribute übernehmen oder entfernen, ihnen Namen zuordnen und die Attributwerte mithilfe von regulären Ausdrücken weiter filtern.
